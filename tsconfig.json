@@ -8,10 +8,10 @@
         "outDir": "build/"
     },
     "compileOnSave": true,
-    "files": [
-        "source/server.ts"
-    ],
-    "include":["/source"],
+    // "files": [
+    //     "source/app.ts"
+    // ],
+    //"include":["/source"],
     "exclude": [
         "/node_modules",
         "/.vscode"
