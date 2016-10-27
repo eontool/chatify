@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6",
+        "removeComments": false,
+        "sourceMap": false,
+        "rootDir": "source/",
+        "outDir": "build/"
+    },
+    "compileOnSave": true,
+    "files": [
+        "source/server.ts"
+    ],
+    "include":["/source"],
+    "exclude": [
+        "/node_modules",
+        "/.vscode"
+    ]
+}

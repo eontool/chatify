@@ -1,0 +1,37 @@
+{
+  "name": "chatify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/server.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "method-override": "^2.3.6",
+    "mongoose": "^4.6.5",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "@types/body-parser": "0.0.33",
+    "@types/express": "^4.0.33",
+    "@types/method-override": "0.0.29",
+    "@types/mongoose": "^4.5.38",
+    "@types/morgan": "^1.7.32",
+    "@types/node": "^6.0.45",
+    "gulp": "^3.9.1",
+    "gulp-cached": "^1.1.0",
+    "gulp-typescript": "^3.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eontool/chatify.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eontool/chatify/issues"
+  },
+  "homepage": "https://github.com/eontool/chatify#readme"
+}
