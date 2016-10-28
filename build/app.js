@@ -15,8 +15,6 @@ app.listen(port, () => {
 });
 const routes_1 = require("./server/routes");
 routes_1.default(app);
-// import connection from "./server/db";
-// connection();
 app.get('/', function (req, res) {
     res.sendFile(path.join(__dirname + '/public/'));
 });
